@@ -1,4 +1,5 @@
-<a href="/">Inicio</a>
-<a href="/login">Login</a>
-<a href="/cadastro">Cadastro</a>
-<a href="/admin">admin</a>
+<a class="btn btn-outline-dark" href="/">Inicio</a>
+<a class="btn btn-outline-dark" href="/login">Login</a>
+<a class="btn btn-outline-dark" href="/cadastro">Cadastro</a>
+<a class="btn btn-outline-dark" href="/admin">admin</a>
+<hr>
