@@ -8,8 +8,8 @@ $contatos = ['teste','teste1','teste2'];
     <table class="table table-hover table-striped mt-5">
         <thead class="table-dark">
             <tr>
-                <th>Contato</th>
-                <th>Descriçao</th>
+                <th>Nome</th>
+                <th>Email</th>
                 <th>Telefone</th>
             </tr>
         </thead>
