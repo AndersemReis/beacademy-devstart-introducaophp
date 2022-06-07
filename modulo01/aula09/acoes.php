@@ -8,10 +8,14 @@ function cadastro(){
     include 'telas/cadastro.php';
 }
 
-function inicial(){
-    include 'telas/inicio.php';
+function home(){
+    include 'telas/home.php';
 }
 
 function naoEncontrada(){
     include 'telas/404.php';
+}
+
+function listar(){
+    include 'telas/listar.php';
 }

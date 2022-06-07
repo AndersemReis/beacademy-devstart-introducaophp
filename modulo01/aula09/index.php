@@ -8,9 +8,10 @@ include 'acoes.php';
 echo match ($url){
     '/login' => login(),
     '/cadastro' => cadastro(),
-    '/inicial' => inicial(),
-    '/'=> include 'telas/home.php',
-    default => include 'telas/404.php'
+    '/listar' => listar(),
+    '/'=> home(),
+
+    default => naoEncontrada()
 };
 
 include 'telas/footer.php';

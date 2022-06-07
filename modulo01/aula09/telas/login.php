@@ -1,6 +1,5 @@
 <main class="form-signin w-100 m-auto">
     <form>
-        <img class="mb-4" src="./img/login 1.jpeg" alt width="72" heigth="57">
         <h1 class="h3 mb-3 fw-normal">Faça seu Login</h1>
         <div class="form-floating">
             <input type="text" class="form-control mb-3" id="emailLogin" placeholder="Email">
