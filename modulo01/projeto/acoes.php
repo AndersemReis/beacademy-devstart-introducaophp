@@ -33,3 +33,18 @@ function listar(){
     $contatos = file('modulo01\projeto\dados\contatos.csv');
     include 'telas/listar.php';
 }
+
+function excluir(){
+    $id = $_GET['id'];
+
+    $contatos = file('modulo01\projeto\dados\contatos.csv');
+    unset($contatos[$id]);
+    unlink('modulo01\projeto\dados\contatos.csv');
+    $arquivo = fopen('modulo01\projeto\dados\contatos.csv','a+');
+    foreach ($contatos as $contato){
+        fwrite($arquivo, $contato);
+    }
+    $mensagem = 'Contato Excluído';
+    fclose($arquivo);
+    include 'telas/mensagem.php';
+}
