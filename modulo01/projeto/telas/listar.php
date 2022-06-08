@@ -13,10 +13,11 @@
         <tbody>
             <?php
             foreach($contatos as $contato) {
+                $partes = explode(';',$contato);
                 echo "<tr>";
-                echo "<td>{$contato}</td>";
-                echo "<td>{$contato}</td>";
-                echo "<td>{$contato}</td>";
+                echo "<td>{$partes[0]}</td>";
+                echo "<td>{$partes[1]}</td>";
+                echo "<td>{$partes[2]}</td>";
                 echo "</tr>";
             }
             ?>
