@@ -10,6 +10,7 @@ echo match ($url[0]){
     '/cadastro' => cadastro(),
     '/listar' => listar(),
     '/excluir' => excluir(),
+    '/editar' => editar(),
     '/'=> home(),
 
     default => naoEncontrada()
